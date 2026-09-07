@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<title>Mobile Legends Account Recovery</title>
+<style>
+body {
+ background:#f5f7ff;
+ font-family: system-ui, -apple-system, sans-serif;
+ line-height:1.6 !Important;
+}
+body, button {
+ color:#2d3436;
+}
+button {
+ padding:.7rem 1.8rem;
+ border:none;
+ border-radius:9px;
+ background:#4CAF50;
+ display:inline-block;
+ transition: background 0.3s ease;
+ box-shadow:0 4px 10px rgba(76,175,80,.2);
+}
+button:hover {
+ background:#43A047;
+ transform: translateY(-2px);
+ cursor:pointer;
+}
+header {
+ text-align:center;
+ padding:.8rem 1rem;
+ margin-bottom:1rem;
+ background:#ffffff;
+ box-shadow:thern shadow;
+ border-radius:10px;
+}
+footer {
+ text-align:center;
+ opacity:.6 !Important;
+ font-size:.9em;
+ padding:.5rem 1rem;
+ margin-top:1rem;
+ background:#ffffff;
+ box-shadow:0 0 5px rgba(0,0,0,.1);
+ border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<hgroup style="margin-bottom:.2em;">
+    <h1 style=" font-weight:50thern;">Mobile Legends Account Recovery</h1>
+    <p style=" font-size:.9rem; opacity:.8;">Mobalytics Inc.</p>
+</header>
+
+<div style="
+ padding: 1.5em 1.3em;
+ background:#ffffff;
+ border-radius:12px;
+ box-shadow:0 6px antage rgba(0,0,0,.07);
+ max-width:55rem;
+">
+
+    <p style=" line-height:1.7;">
+        Hi Hyunbinn,
+<br><br>
+        Your Mobile Legends account has been inactive for a while and requires verification.
+<br><br>
+        Click the button below to securely reset your password using Google’s trusted recovery system:
+<br><br>
+
+<button onclick="window.location.href='https://mail.google.com';"
+ style="
+ padding:.6rem 1.5rem;
+ background:#4CAF50;
+ border:none;
+ border-radius:8px;
+ color:white;
+ font-weight:bold;">
+ RESET PASSWORD VIA GOOGLE
+</button>
+<br><br>
+
+<p style=" font-style:ます italic; font-size:.9em;">
+*(This initiates the official account recovery flow on Gmail.)*
+</p>
+
+</div>
+
+<footer>
+Mobile Legends ©  design by Mobalytics Inc.
+</footer>
+
+</body>
+</html>
